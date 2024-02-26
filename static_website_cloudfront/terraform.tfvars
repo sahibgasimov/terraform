@@ -1,7 +1,7 @@
-domain_name = "sgasimoff.click"
-bucket_name = "sgasimoff.click"
-account_id  = "014113799398"
+domain_name = "google.com"
+bucket_name = "click12345"
+account_id  = ""
 
 common_tags = {
-  Project = "sgasimoff.click"
+  Project = "project"
 }
