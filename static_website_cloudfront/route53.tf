@@ -5,7 +5,7 @@
 } */
 
 resource "aws_route53_record" "root-a" {
-  zone_id = "Z08472051TRPNSZXMRC4J"
+  zone_id = ""
   name    = var.domain_name
   type    = "A"
 
@@ -17,7 +17,7 @@ resource "aws_route53_record" "root-a" {
 }
 
 resource "aws_route53_record" "www-a" {
-  zone_id = "Z08472051TRPNSZXMRC4J"
+  zone_id = ""
   name    = "www.${var.domain_name}"
   type    = "A"
 
@@ -35,7 +35,7 @@ resource "aws_route53_record" "cert_validation" {
       name    = dvo.resource_record_name
       record  = dvo.resource_record_value
       type    = dvo.resource_record_type
-      zone_id = "Z08472051TRPNSZXMRC4J"
+      zone_id = ""
     }
   }
 
