@@ -1,4 +1,5 @@
-Lambda Function for Managing EC2 Instances
+### Lambda Function checks if there are more than one instance with certain name
+
 This repository contains code for a Lambda function written in Python that manages EC2 instances and triggers actions based on certain conditions. It includes Terraform configuration files to deploy and manage the infrastructure required for the Lambda function.
 
 Lambda Function (handler.py)
